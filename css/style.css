@@ -31,13 +31,23 @@ h5{
 .content{
 	margin-top: 50px;
 }
-p{
+p, a{
 	float: right;
 	color: #fff;
 	margin-top: 20px;
 }
+a{
+	margin-top: 0;
+}
+a:hover, a:active, a:visited{
+	color: #f0f0f0;
+}
 .header{
 	/*padding-top: 25px;*/
+}
+h5 span{
+	border: 3px solid #fff;
+    padding: 5px 10px;
 }
 
 @media(max-width: 767px){
